@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+.footer-icon a{
+    font-size: 27px;
+    margin: 0.5rem;
+}
+.footer-icon a .bx{
+    padding: 5px;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.footer-icon a .bx:hover{
+    background-color: var(--main-color);
+}
+.links{
+    margin: 1rem 0 1rem;
+}
+.links a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--second-color);
+    padding: 1rem;
+}
+.links a:hover{
+    color: var(--main-color);
+}
+.footer p{
+    text-align: center;
+}
